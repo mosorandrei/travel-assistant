@@ -1,0 +1,87 @@
+############################
+# Maven
+############################
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+############################
+# Logs
+############################
+*.log
+*.log.*
+logs/
+log/
+
+############################
+# Spring Boot
+############################
+# Exclude application secrets
+application-*.properties
+application-*.yml
+# Except default files:
+!src/main/resources/application.properties
+!src/main/resources/application.yml
+
+############################
+# IDEs
+############################
+
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+############################
+# OS files
+############################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+############################
+# Java & Build Artifacts
+############################
+*.class
+*.jar
+*.war
+*.ear
+*.jpi
+
+############################
+# Backups
+############################
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+############################
+# H2 database files (if ever used in file mode)
+############################
+*.mv.db
+*.h2.db
+
+############################
+# Node (if front-end added later)
+############################
+node_modules/
+dist/
